@@ -8,6 +8,11 @@
         <!--JS-->
         <script src="./pwabuilder-sw/pwabuilder-sw.js"></script>
         <script src="./pwabuilder-sw/pwabuilder-sw-register.js"></script>
+        <script type="module">
+            import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+            const el = document.createElement('pwa-update');
+            document.body.appendChild(el);
+        </script>
         <!--CDNs-->
         <script src="https://cdn.tailwindcss.com/"></script>
         <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
