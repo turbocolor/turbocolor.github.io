@@ -8,6 +8,7 @@
         <!--JS-->
         <script src="./pwabuilder-sw/pwabuilder-sw.js"></script>
         <script src="./pwabuilder-sw/pwabuilder-sw-register.js"></script>
+        <script src="./assets/js/copy.js"></script>
         <script type="module">
             import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
             const el = document.createElement('pwa-update');
@@ -78,7 +79,8 @@
                     <div class="bg-red-900 aspect-square"></div>
                     </div>
                 <div class="mt-2 flex items-center justify-between text-slate-500">
-                    <span class="flex-1">red-50</span><svg width="47" height="4" viewBox="0 0 47 4" fill="currentColor">
+                    <span class="flex-1">red-50</span>
+                    <svg width="47" height="4" viewBox="0 0 47 4" fill="currentColor">
                         <circle cx="1.5" cy="2" r="1.5" class="text-slate-200 dark:text-slate-800">
 
                         </circle>
@@ -97,6 +99,7 @@
                     </svg>
                     <span class="flex-1 text-right">red-900</span>
                 </div>
+                <fluent-button onclick="copytw1()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
             <li class="bg-white rounded-lg shadow ring-1 ring-slate-700/5 p-2 dark:bg-slate-900 dark:ring-white/10" style="opacity: 1;">
                 <ul class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 xl:grid-cols-10 gap-2">
@@ -153,6 +156,7 @@
                     </svg>
                     <span class="flex-1 text-right">orange-900</span>
                 </div>
+                <fluent-button onclick="copytw2()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
             <li class="bg-white rounded-lg shadow ring-1 ring-slate-700/5 p-2 dark:bg-slate-900 dark:ring-white/10" style="opacity: 1;">
                 <ul class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 xl:grid-cols-10 gap-2">
@@ -209,6 +213,7 @@
                     </svg>
                     <span class="flex-1 text-right">amber-900</span>
                 </div>
+                <fluent-button onclick="copytw3()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
             <li class="bg-white rounded-lg shadow ring-1 ring-slate-700/5 p-2 dark:bg-slate-900 dark:ring-white/10" style="opacity: 1;">
                 <ul class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 xl:grid-cols-10 gap-2">
@@ -265,6 +270,7 @@
                     </svg>
                     <span class="flex-1 text-right">yellow-900</span>
                 </div>
+                <fluent-button onclick="copytw4()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
             <li class="bg-white rounded-lg shadow ring-1 ring-slate-700/5 p-2 dark:bg-slate-900 dark:ring-white/10" style="opacity: 1;">
                 <ul class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 xl:grid-cols-10 gap-2">
@@ -321,6 +327,7 @@
                     </svg>
                     <span class="flex-1 text-right">lime-900</span>
                 </div>
+                <fluent-button onclick="copytw5()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
             <li class="bg-white rounded-lg shadow ring-1 ring-slate-700/5 p-2 dark:bg-slate-900 dark:ring-white/10" style="opacity: 1;">
                 <ul class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 xl:grid-cols-10 gap-2">
@@ -377,6 +384,7 @@
                     </svg>
                     <span class="flex-1 text-right">green-900</span>
                 </div>
+                <fluent-button onclick="copytw6()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
             <li class="bg-white rounded-lg shadow ring-1 ring-slate-700/5 p-2 dark:bg-slate-900 dark:ring-white/10" style="opacity: 1;">
                 <ul class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 xl:grid-cols-10 gap-2">
@@ -433,6 +441,7 @@
                     </svg>
                     <span class="flex-1 text-right">emerald-900</span>
                 </div>
+                <fluent-button onclick="copytw7()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
             <li class="bg-white rounded-lg shadow ring-1 ring-slate-700/5 p-2 dark:bg-slate-900 dark:ring-white/10" style="opacity: 1;">
                 <ul class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 xl:grid-cols-10 gap-2">
@@ -489,6 +498,7 @@
                     </svg>
                     <span class="flex-1 text-right">teal-900</span>
                 </div>
+                <fluent-button onclick="copytw8()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
             <li class="bg-white rounded-lg shadow ring-1 ring-slate-700/5 p-2 dark:bg-slate-900 dark:ring-white/10" style="opacity: 1;">
                 <ul class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 xl:grid-cols-10 gap-2">
@@ -545,6 +555,7 @@
                     </svg>
                     <span class="flex-1 text-right">cyan-900</span>
                 </div>
+                <fluent-button onclick="copytw9()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
             <li class="bg-white rounded-lg shadow ring-1 ring-slate-700/5 p-2 dark:bg-slate-900 dark:ring-white/10" style="opacity: 1;">
                 <ul class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 xl:grid-cols-10 gap-2">
@@ -601,6 +612,7 @@
                     </svg>
                     <span class="flex-1 text-right">sky-900</span>
                 </div>
+                <fluent-button onclick="copytw10()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
             <li class="bg-white rounded-lg shadow ring-1 ring-slate-700/5 p-2 dark:bg-slate-900 dark:ring-white/10" style="opacity: 1;">
                 <ul class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 xl:grid-cols-10 gap-2">
@@ -658,6 +670,7 @@
                     </svg>
                     <span class="flex-1 text-right">blue-900</span>
                 </div>
+                <fluent-button onclick="copytw11()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
             <li class="bg-white rounded-lg shadow ring-1 ring-slate-700/5 p-2 dark:bg-slate-900 dark:ring-white/10" style="opacity: 1;">
                 <ul class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 xl:grid-cols-10 gap-2">
@@ -715,6 +728,7 @@
                     </svg>
                     <span class="flex-1 text-right">indigo-900</span>
                 </div>
+                <fluent-button onclick="copytw12()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
             <li class="bg-white rounded-lg shadow ring-1 ring-slate-700/5 p-2 dark:bg-slate-900 dark:ring-white/10" style="opacity: 1;">
                 <ul class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 xl:grid-cols-10 gap-2">
@@ -771,6 +785,7 @@
                     </svg>
                     <span class="flex-1 text-right">violet-900</span>
                 </div>
+                <fluent-button onclick="copytw13()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
             <li class="bg-white rounded-lg shadow ring-1 ring-slate-700/5 p-2 dark:bg-slate-900 dark:ring-white/10" style="opacity: 1;">
                 <ul class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 xl:grid-cols-10 gap-2">
@@ -828,6 +843,7 @@
                     </svg>
                     <span class="flex-1 text-right">purple-900</span>
                 </div>
+                <fluent-button onclick="copytw14()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
             <li class="bg-white rounded-lg shadow ring-1 ring-slate-700/5 p-2 dark:bg-slate-900 dark:ring-white/10" style="opacity: 1;">
                 <ul class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 xl:grid-cols-10 gap-2">
@@ -884,6 +900,7 @@
                     </svg>
                     <span class="flex-1 text-right">fuchsia-900</span>
                 </div>
+                <fluent-button onclick="copytw15()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
             <li class="bg-white rounded-lg shadow ring-1 ring-slate-700/5 p-2 dark:bg-slate-900 dark:ring-white/10" style="opacity: 1;">
                 <ul class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 xl:grid-cols-10 gap-2">
@@ -940,6 +957,7 @@
                     </svg>
                     <span class="flex-1 text-right">pink-900</span>
                 </div>
+                <fluent-button onclick="copytw16()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
             <li class="bg-white rounded-lg shadow ring-1 ring-slate-700/5 p-2 dark:bg-slate-900 dark:ring-white/10" style="opacity: 1;">
                 <ul class="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 xl:grid-cols-10 gap-2">
@@ -996,6 +1014,7 @@
                     </svg>
                     <span class="flex-1 text-right">rose-900</span>
                 </div>
+                <fluent-button onclick="copytw17()"><img width="25" src="./assets/img/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></img></fluent-button>
             </li>
         </ul>
         <p><br></br></p>
