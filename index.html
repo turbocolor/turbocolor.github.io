@@ -9,6 +9,7 @@
         <script src="./pwabuilder-sw/pwabuilder-sw.js"></script>
         <script src="./pwabuilder-sw/pwabuilder-sw-register.js"></script>
         <script src="./assets/js/copy.js"></script>
+        <script src="./assets/js/app.js"></script>
         <script type="module">
             import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
             const el = document.createElement('pwa-update');
@@ -1474,8 +1475,8 @@
                 </div>
             </li>
         </ul>
-        <div class="flex items-center justify-center">
-            <fluent-button onclick="window.location.replace("view-source://turbocolor.github.io")">View Source</fluent-button>
+        <div class="flex items-center justify-center p-2">
+            <fluent-button onclick="source();">View Source</fluent-button>
             <span aria-label="(Beta)" class="ml-2 mb-1 align-middle inline-flex items-center px-2.5 py-0.5 rounded-full tracking-wide text-xs font-medium bg-gradient-to-r from-red-500 to-blue-500 uppercase text-white">Beta</span>
         </div>
         <footer class="text-center lg:text-left bg-gray-100 text-gray-600">
